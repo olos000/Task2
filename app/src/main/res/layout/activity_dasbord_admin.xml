@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dasbordAdmin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/bmi"
+            android:layout_width="201dp"
+            android:layout_height="357dp"
+            android:background="#49B8AF"
+            android:text="BMI Kakulator"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/hitung"
+            android:layout_width="216dp"
+            android:layout_height="357dp"
+            android:layout_alignParentRight="true"
+            android:background="#49B8AF"
+            android:text="Hitung Umur"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/Recyc"
+            android:layout_width="199dp"
+            android:layout_height="376dp"
+            android:layout_alignParentBottom="true"
+            android:background="#49B8AF"
+            android:text="Receylceview"
+            android:textColor="@color/colorPrimary" />
+
+
+        <Button
+            android:id="@+id/List"
+            android:layout_width="213dp"
+            android:layout_height="373dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="0dp"
+            android:background="#49B8AF"
+            android:text="ListView"
+            android:textColor="@color/colorPrimary" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
